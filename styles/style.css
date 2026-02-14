@@ -235,11 +235,12 @@ fieldset {
   flex-direction: column;
   gap: 26px;
   grid-area: details;
-  block-size: 100%;
-  inline-size: 100%;
+  block-size: 534px;
+  inline-size: 399px;
 }
 
 .title {
+  width: min-content;
   font-family: 'Oswald';
   font-size: 75px;
   font-weight: bold;
@@ -255,7 +256,7 @@ fieldset {
 .content__list-container {
   position: relative;
   block-size: 298px;
-  inline-size: 390px;
+  inline-size: 399px;
   overflow-y: scroll;
 }
 
@@ -301,10 +302,13 @@ fieldset {
 }
 
 .content__video-card-description-container {
+  inline-size: 196px;
+  block-size: 103px;
   flex-grow: 1;
 }
 
 .content__video-card-title {
+  line-height: 103%;
   font-family: 'Oswald';
   font-size: 30px;
   font-weight: bold;
